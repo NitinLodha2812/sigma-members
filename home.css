@@ -1,124 +1,122 @@
-nav{
-    position: absolute;
-    left: 10px;
-    top: 10px;
+nav {
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
-body{
-    padding: 10px 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: whitesmoke;
-    background-color: black;
+body {
+  padding: 10px 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: #000016;
 }
-h1{
-    align-self: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+h1 {
+  align-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
 }
-h3{
-    margin-left: 1vw;
+h3 {
+  margin-left: 1vw;
 }
-.faculty{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: flex-start;
-    margin: 1vw 1vw;
+.faculty {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1vw 1vw;
 }
-.faculty .details{
-    margin-left: 50px;
-    align-self: center;
+.faculty .details {
+  margin-left: 50px;
+  align-self: center;
 }
-.member .details{
-    text-align: center;
+.member .details {
+  text-align: center;
 }
-.designation{
-    font-family: 'Bodoni Moda', serif;
-    text-transform: uppercase;
-    margin-top: 1px;
+.designation {
+  font-family: "Bodoni Moda", serif;
+  text-transform: uppercase;
+  margin-top: 1px;
 }
-.name{
-    text-transform: capitalize;
-    font-family: 'Bodoni Moda', serif;
+.name {
+  text-transform: capitalize;
+  font-family: "Bodoni Moda", serif;
 }
-#board{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    text-align: center;
-    
+#board {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  text-align: center;
 }
-.member{
-    margin: 1vw 1vw;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
+.member {
+  margin: 1vw 1vw;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
 }
-nav img{
-    height: 75px;
-    width: 75px;
-    margin: 40px;
+nav img {
+  height: 75px;
+  width: 75px;
+  margin: 40px;
 }
-.photo{
-    height: 250px;
-    overflow: hidden;
-    border-radius: 20px;
-    border: solid;
-    border-width: 10px;
-    border-color: yellow;
-    width: 175px;
-    position: relative;
+.photo {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: solid;
+  border-width: 10px;
+  border-color: yellow;
+  width: 175px;
+  position: relative;
 }
-.photo img{
-    height: 100%;
-    position: absolute;
-    top:0;
-    left:50%;
-    transform: translateX(-50%);
+.photo img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
-#core{
-    border: solid;
-    border-color: whitesmoke;
-    border-width: 0.2px;
-    padding: 10px 20px;
-    margin: 1vw 1vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 400px;
-    text-align: center;
+#core {
+  border: solid;
+  border-color: whitesmoke;
+  border-width: 0.2px;
+  padding: 10px 20px;
+  margin: 1vw 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 400px;
+  text-align: center;
 }
 @media (max-width: 600px) {
-    p{
-        font-size: 14px
-    }
-    body{
-        padding: 5px 3.5vw;
-    }
-    nav img{
-        margin:20px;
-        height: 50px;
-        width: 50px;
-    }
-    h1{
-        font-size: 24px;
-    }
-    h3{
-        font-size: 18px;
-        margin-left: 1vw;
-    }
-    .faculty{
-        padding: 50px 0px;
-    }
-    .faculty .details{
-        margin-left: 20px;
-    }
-    .photo{
-
-    }
-    #core{
-        border-width: 0.1px;
-        padding: 10px 20px;
-        height: 800px;
-    }
+  p {
+    font-size: 14px;
+  }
+  body {
+    padding: 5px 3.5vw;
+  }
+  nav img {
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-left: 1vw;
+  }
+  .faculty {
+    padding: 50px 0px;
+  }
+  .faculty .details {
+    margin-left: 20px;
+  }
+  .photo {
+  }
+  #core {
+    border-width: 0.1px;
+    padding: 10px 20px;
+    height: 800px;
+  }
 }
